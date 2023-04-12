@@ -40,4 +40,12 @@ void Matakuliah::InputMK() {
 	cout << "Masukan Sks Mata Kuliah : ";
 	cin >> sks;
 
+};
+
+void Matakuliah::TampilMK() {
+	cout << "nKode : " << kode << endl;
+	cout << "Nama Matakuliah : " << namamk << endl;
+
+
+
 }
