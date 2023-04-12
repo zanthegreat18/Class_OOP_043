@@ -19,6 +19,15 @@ public :
 	}
 };
 
+class Matakuliah {
+private:
+	string kode;
+	string namamk;
+	int sks;
+
+public
+
+
 void Matakuliah::InputMK() {
 	cout << "\nMasukkan kode mata kuliah : ";
 	cin >> kode;
