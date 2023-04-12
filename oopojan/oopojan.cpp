@@ -45,7 +45,18 @@ void Matakuliah::InputMK() {
 void Matakuliah::TampilMK() {
 	cout << "nKode : " << kode << endl;
 	cout << "Nama Matakuliah : " << namamk << endl;
+	cout << "jumlah SKS : " << sks << endl;
+}
 
+int main()
+{
+	mahasiswa mhs;
+	Matakuliah mk;
 
+	mhs.inputdata();
+	mhs.tampildata();
+
+	mk.InputMK();
+	mk.TampilMK();
 
 }
