@@ -18,3 +18,8 @@ public :
 		cout << "Nama : " << nama << endl;
 	}
 };
+
+void Matakuliah::InputMK() {
+	cout << "\nMasukkan kode mata kuliah : ";
+	cin >> kode;
+}
